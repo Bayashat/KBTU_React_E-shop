@@ -1,0 +1,119 @@
+.layout {
+	width: 100%;
+	max-width: 1240px;
+	height: 100vh;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+
+	:global(.floating-action-btn) {
+		display: none;
+
+		@media screen and (max-width: 700px) {
+			display: block;
+		}
+	}
+}
+
+.sider,
+.header {
+	:global(.logo) {
+		height: 64px;
+		padding: 16px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		color: #fff;
+		font-size: 24px;
+		font-weight: bolder;
+
+		@keyframes logoAnimation {
+			from {
+				text-shadow: 0 0 8px transparent;
+			}
+			to {
+				text-shadow: 0 0 0 currentColor;
+			}
+		}
+		animation: logoAnimation 1.5s ease alternate infinite;
+	}
+}
+
+.sider {
+	position: relative;
+
+	@media screen and (max-width: 700px) {
+		display: none;
+	}
+
+	:global(.creator) {
+		width: 100%;
+		height: 32px;
+		line-height: 32px;
+
+		position: absolute;
+		left: 0;
+		bottom: 32px;
+
+		color: rgba(255, 255, 255, 0.25);
+		font-size: 12px;
+		font-weight: 100;
+		text-align: center;
+	}
+}
+
+.header {
+	width: 100%;
+	background: #fff !important;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	:global(.logo) {
+		display: none;
+		padding: 0;
+
+		color: rgba(0, 0, 0, 0.8);
+		white-space: nowrap;
+
+		@media screen and (max-width: 700px) {
+			display: block;
+		}
+	}
+
+	:global(.ant-menu) {
+		width: 100%;
+		justify-content: flex-end;
+	}
+}
+
+.content {
+	margin: 32px;
+	padding: 32px;
+	background: #fff;
+	position: relative;
+	overflow: hidden auto;
+
+	/* width */
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	/* Track */
+	&::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	&::-webkit-scrollbar-thumb {
+		background: #888;
+	}
+
+	/* Handle on hover */
+	&::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+}
