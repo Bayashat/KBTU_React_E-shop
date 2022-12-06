@@ -1,32 +1,33 @@
 # E-Shop
 
-> 学习资料，仅供学习参考，禁止销售
 
-## 项目简介
+## Project description
 
-简单的在线商城, 暂未链接后端。
+Simple online store, no link to the backend yet.
 
-拥抱 `React` 函数式组件, `Hooks` 写法。
+Embrace `React` functional components, `Hooks`.
 
-### 安装 & 运行
+### install & run
 
-下载依赖
+download dependencies
 
 - `npm install`
 
-运行本地服务器
+run local server
 
 - `npm run dev`
 
-### 技术栈
+### technology stack
 
 - `React 17.0.2`
 
-- `Vite` 脚手架
+- `Vite` scaffold
 
 - `CSS Module`
 
-### 关于作者
+### about Author
 - Tokmukamet Bayashat
+- github: https://github.com/Bayashat/
+- instagram: bayashat_t
 
 
