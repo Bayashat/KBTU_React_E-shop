@@ -22,15 +22,15 @@ The `Product component` : each item, regardless of computer, mobile phone, etc.,
 
 **home page**
 
-![home_page](/resule_screen/home_page.jpg)
+![home_page](/result_screen/home_page.jpg)
 
 **mobile page**
 
-![mobile page](/resule_screen/mobile_screen.jpg)
+![mobile page](/result_screen/mobile_screen.jpg)
 
 **login page**
 
-![login page](/resule_screen/login_page.jpg)
+![login page](/result_screen/login_page.jpg)
 
 ### install & run
 
