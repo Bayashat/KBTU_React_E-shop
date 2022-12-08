@@ -7,6 +7,20 @@ Simple online store, no link to the backend yet.
 
 Embrace `React` functional components, `Hooks`.
 
+### result screen
+
+**home page**
+
+![home_page](/resule_screen/home_page.jpg)
+
+**mobile page**
+
+![mobile page](/resule_screen/mobile_screen.jpg)
+
+**login page**
+
+![login page](/resule_screen/login_page.jpg)
+
 ### install & run
 
 download dependencies

@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 // Utils
 import { isFunction } from './utils';
 
-// Components
+// Components 
 import { Layout } from '@/components';
 
 import computerList from '@/data/computer.json';
